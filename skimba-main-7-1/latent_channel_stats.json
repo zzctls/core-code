@@ -1,0 +1,53 @@
+{
+  "accumulation_dtype": "float64",
+  "algorithm": "parallel_welford_per_channel",
+  "elements_per_channel": 626851840,
+  "export_mode": "mean",
+  "format_version": 1,
+  "input_file_count": 19130,
+  "label_mapping": "/mnt/data/projects/skimba-main-7-1/config/label_mapping/semantic-kitti-multiscan.yaml",
+  "latent_root": "/mnt/data/datasets/kitti/odometry/skimba_data/VAE_Encoder_Features_Semantic20_epoch210",
+  "latent_shape": [
+    8,
+    64,
+    64,
+    8
+  ],
+  "mean": [
+    -0.033294855305170123,
+    -0.048412018562530974,
+    0.02473177738463385,
+    0.008555747414609113,
+    0.031234058589540894,
+    0.08072866928042771,
+    -0.009789038826417224,
+    0.04179502854790744
+  ],
+  "sample_count": 19130,
+  "source_dtype": "float32",
+  "split": "train",
+  "std": [
+    0.5554124064680741,
+    0.5469347007130558,
+    0.6209567466674478,
+    0.6901713461541459,
+    0.8376643586082285,
+    0.5554570246661543,
+    0.6600352165211985,
+    0.8457457783112878
+  ],
+  "std_definition": "population",
+  "total_element_count": 5014814720,
+  "train_sequences": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "09",
+    "10"
+  ]
+}
